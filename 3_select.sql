@@ -30,14 +30,14 @@ SELECT * FROM students WHERE raiting=5 AND class='9-sinf';
 
 
 
--- Ismi "Alisher" bo'lgan studentlarni tanlan olish
+-- Ismi "Alisher" bo'lgan studentlarni tanlab olish
 SELECT * FROM students WHERE first_name LIKE 'Ali';
 
--- Ismi "Ali" bilan boshlanadigan studentlarni tanlan olish
+-- Ismi "Ali" bilan boshlanadigan studentlarni tanlab olish
 SELECT * FROM students WHERE first_name LIKE '%Ali';
 
--- Ismi "sher" bilan tugaydigan studentlarni tanlan olish
+-- Ismi "sher" bilan tugaydigan studentlarni tanlab olish
 SELECT * FROM students WHERE first_name LIKE 'sher%';
 
--- Ismida "li" bo'lgan studentlarni tanlan olish
+-- Ismida "li" bo'lgan studentlarni tanlab olish
 SELECT * FROM students WHERE first_name LIKE '%li%';

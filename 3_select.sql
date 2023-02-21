@@ -28,7 +28,7 @@ SELECT * FROM students WHERE raiting<=4;
 -- Barcha "raiting"i 5ga teng va "9-sinf" bo'lganlarini saralab olish
 SELECT * FROM students WHERE raiting=5 AND class='9-sinf';
 
-
+ 
 
 -- Ismi "Alisher" bo'lgan studentlarni tanlab olish
 SELECT * FROM students WHERE first_name LIKE 'Ali';
